@@ -21,30 +21,30 @@ Matematik desinden hatırladığımız tamsayılar bu bölümde de aynı şekild
 Ondalıklı Sayılar ( Float )
 Matematik dersinden bildiğimiz ondalıklı sayılar konusu ile aynıdır. Python yazılım dilinde ondalıklı sayılar "float" olarak adlandırılmaktadır.
 
-Basit Matematiksel İşlemler
-## Toplama
+## Basit Matematiksel İşlemler
+### Toplama
 ```sh
 2+2
 ```
 4
 
-## Çıkarma
+### Çıkarma
 ```sh
 19 - 7
 ```
 12
-## Bölme
+### Bölme
 ```sh
 15 / 5
 ```s
 3.0
-## Çarpma
+### Çarpma
 ```sh
 16 * 2
 ```
 32
 # Değişkenler
-## Değişkenimizin adı = Değişkenin değeri
+**Değişkenimizin adı = Değişkenin değeri**
 ```sh
 i = 20
 i
@@ -97,7 +97,7 @@ c
      ^
 SyntaxError: invalid syntax
 
-Değişken isimleri verilirken birden fazla kelime var ise boşluk bırakılmaz.
+**Değişken isimleri verilirken birden fazla kelime var ise boşluk bırakılmaz.**
 ```sh
 tam sayi = 5
 ```
@@ -106,7 +106,7 @@ tam sayi = 5
         ^
 SyntaxError: invalid syntax
 
-Özel karakterler ( !'^+%&/()=?- ) kullanılamaz. Ancak alt tire _ kullanılabilir.
+**Özel karakterler ( !'^+%&/()=?- ) kullanılamaz. Ancak alt tire _ kullanılabilir.**
 
 ```sh
 &a = 5
@@ -120,7 +120,7 @@ tam_sayi = 5
 tam_sayi
 ```
 5
-Python yazılım dilinin kullandığı özel ifadeleri değişken adı olarak kullanamayız. Ör; while, not, if, else vb.
+**Python yazılım dilinin kullandığı özel ifadeleri değişken adı olarak kullanamayız. Ör; while, not, if, else vb.**
 ```sh
 if = 5
 ```
@@ -176,14 +176,7 @@ a
 140
 ```sh
 a *= 10 # Sayımızı hızlı bir şekilde çarpıp o değeri atamak için kullandığımız bir ifadedir. 
-"""
-Çoklu yorum satılarında
-3 adet tırnak işareti 
-kullanmamız gerekiyor.
-Bu şekilde paragraf
-yazılarını yazabilirsiniz.
-"""
-'\nÇoklu yorum satılarında\n3 adet tırnak işareti \nkullanmamız gerekiyor.\nBu şekilde paragraf\nyazılarını yazabilirsiniz.\n'
+
 """
 Çoklu yorum satılarında
 3 adet tırnak işareti 
