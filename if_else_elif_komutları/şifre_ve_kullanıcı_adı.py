@@ -1,4 +1,13 @@
+"""
+bir internet giriş sitesi yapın :
+önce bir şifre ve kullanıcı adı isteyin.
+sonra bu kulnıcı adı ve şifreyi doğrulayın.
+eğer 3 defa yanlış yazarsa programdan atın.
+
+"""
+
 #lütfen önce kendiniz yapın
+
 kadi = "ege"
 sifre= "atalay"
 
