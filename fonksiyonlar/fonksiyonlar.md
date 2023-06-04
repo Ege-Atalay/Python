@@ -124,3 +124,51 @@ toplama_islemi(5,6)
 ```
 11
  
+## Global ve Yerel Değişkenler
+```sh
+sayi1 = 10
+sayi2 = 20
+
+def toplam():
+    sayi1 = 25
+    print(sayi1)
+
+print(sayi1) 
+toplam()
+```
+10
+25
+## Lambda Expression
+```sh
+a = [2, 6, 7, 9 , 10 ,14 ,15,18, 219]
+b = [i*2 for i in a] # List Comprehension
+print(b)
+```
+[2, 6, 10, 14, 18]
+```sh
+isim = lambda parametre1,parametre2,parametre3, : işlem
+def topla(a,b,c):
+    return a + b + c
+topla(3,5,7)
+```
+15
+
+bu kodu iki satıra indirmek için sü kodu yazabilirsiniz:
+```sh
+toplama_lambda = lambda sayi1,sayi,sayi3 : sayi1 + sayi + sayi3
+topla(3,5,7)
+```
+15
+```sh
+sayilar = [1,2,3,4,5,6,7,8,9,10]
+cift_sayi = list(filter(lambda ege: ege % 2 == 0, sayilar))
+print(cift_sayi)
+```
+[2, 4, 6, 8, 10]
+```sh
+sayilar = [1,2,3,4,5,6,7,8,9,10]
+sayilarin_karesi = list(map(lambda ege: ege * 2, sayilar))
+
+print(sayilarin_karesi)
+```
+[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
