@@ -8,7 +8,15 @@ Değişkenler
 Tamsayılar ( Integer )
 Matematik desinden hatırladığımız tamsayılar bu bölümde de aynı şekilde işlenmektedir. Python yazılım dilinde tamsayılar "Integer" olarak adlandırılmaktadır. Tamsayılara örnek olarak;
 
-1)- 1 2)- 235 3)- -520 4)- -12500 5)- 354
+1)1
+
+2)235
+
+3)-520
+
+4)-12500
+
+5)354
 
 Ondalıklı Sayılar ( Float )
 Matematik dersinden bildiğimiz ondalıklı sayılar konusu ile aynıdır. Python yazılım dilinde ondalıklı sayılar "float" olarak adlandırılmaktadır.
